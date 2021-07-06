@@ -1,0 +1,10 @@
+  //给@符号做提示用
+{
+    "compilerOptions" :{
+        "baseUrl":"./",
+        "paths":{
+            "@/*":["src/*"]
+        }
+    },
+    "exclude": ["node_modules","dist"]
+}
